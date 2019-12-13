@@ -10,6 +10,7 @@ Rails.application.configure do
   config.eager_load = false
 	config.action_mailer.delivery_method = :test
 	config.action_mailer.default_url_options = { :host => 'localhost:3000'}
+	config.serve_static_assets = false
 
   # Show full error reports.
   config.consider_all_requests_local = true

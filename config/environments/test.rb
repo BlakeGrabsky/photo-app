@@ -13,6 +13,7 @@ Rails.application.configure do
   # preloads Rails for running tests, you may have to set it to true.
   config.eager_load = false
 	config.action_mailer.default_url_options = { :host => 'localhost:3000'}
+	config.serve_static_assets = false
 
   # Configure public file server for tests with Cache-Control for performance.
   config.public_file_server.enabled = true
